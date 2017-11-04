@@ -16,3 +16,5 @@ func TestAdd(t *testing.T) {
 		fmt.Println("add success")
 	}
 }
+
+
