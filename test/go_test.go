@@ -10,7 +10,7 @@ func add (a int ,b int) (int){
 }
 
 func TestAdd(t *testing.T) {
-	if 7 != add(3, 3){
+	if 6 != add(3, 3){
 		t.Error("add fail")
 	}else{
 		fmt.Println("add success")
